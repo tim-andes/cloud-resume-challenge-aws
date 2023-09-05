@@ -19,4 +19,3 @@ context("GET DB /tutorials", () => {
     })
   })
 })
-`~`
