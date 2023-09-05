@@ -12,7 +12,7 @@ Proven Skills and Competencies:
 - [X] AWS Lambda
 - [X] JavaScript
 - [X] End-to-end testing via Cypress
-- [] CI/CD
-- [] AWS SAM
+- [ ] CI/CD
+- [ ] AWS SAM
 - [X] GitHu
-- [] GitHub Actions
+- [ ] GitHub Actions
