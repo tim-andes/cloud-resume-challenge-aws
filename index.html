@@ -56,7 +56,7 @@
         <li>Scripted a U.S. Federal Income Tax Calculator for multiple filing statuses that applies a bisection search algorithm to navigate tax brackets, as well as scripting an investment growth algorithm complete with a plotly visualization.</li>
         <li>Beta-tested a tech start-up's Excel-based FI/RE calculator, identifying pain points and potential new features.</li>
         <li>Designed logos / brand images for small businesses, co-wrote business plans, and photographed products / events.</li>
-        <li>Projects: <a href="https://github.com/tim-andes" target="_blank">https://github.com/tim-andes</a></li>
+        <li>Projects: <a href="https://github.com/tim-andes" target="_blank">https://github.com/tim-andes</a> - Cloud Resume Challenge (AWS), Python/PHP/JS examples, Laravel and Django projects, and notes</li>
       </ul>
     </div><!-- "experience experience2" --> 
   
@@ -80,7 +80,7 @@
           <li>Quickly developed rapport and maintained lasting relationships with C-Level executives, directors, and affluent Naples clientele.</li>
         </ul>
       </div><!-- "experience experience4" --> 
-    <!-- Add more experience entries if needed -->
+    <!-- Add more experience entries if required -->
   </div>
   
   <div class="section education">
@@ -93,14 +93,14 @@
     
   <div class="counter-container">
     <p><span id="current-count"></span> <small>views</small></p>
-  </div>
+  </div><!-- "counter-container" --> 
 
   <script>
     async function fetch_viewcount() {
       const response = await fetch("https://43uub5rsi5.execute-api.us-east-1.amazonaws.com/tutorials/")
         .then((response) => response.json())
         .then((responseJSON) => {
-       // do stuff with responseJSON here...
+          // Grab the "current-count" <span> element and inject into it the viewcount
           document.getElementById("current-count").innerHTML = responseJSON;
         });
     }
