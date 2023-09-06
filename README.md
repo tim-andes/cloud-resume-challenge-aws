@@ -14,5 +14,5 @@ Proven Skills and Competencies:
 - [X] Cypress end-to-end testing
 - [ ] CI/CD
 - [ ] AWS SAM
-- [X] GitHu
+- [X] GitHub
 - [ ] GitHub Actions
