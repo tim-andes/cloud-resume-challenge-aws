@@ -13,6 +13,6 @@ Proven Skills and Competencies:
 - [X] JavaScript
 - [X] Cypress end-to-end testing
 - [ ] CI/CD
-- [ ] AWS SAM
+- [X] Terraform
 - [X] GitHub
 - [ ] GitHub Actions
