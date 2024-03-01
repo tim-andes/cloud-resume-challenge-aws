@@ -2,7 +2,6 @@
 
 My current iteration of the Cloud Resume Challenge - AWS. I am currently on the tail end of the project, setting up CI/CD this week and performing final integration
 
-Proven Skills and Competencies:
 - [X] AWS S3
 - [X] DNS
 - [X] HTML
