@@ -1,6 +1,6 @@
 # cloud-resume-challenge-aws
 
-My current iteration of the Cloud Resume Challenge - AWS. I am currently on the tail end of the project, setting up CI/CD this week and performing final integration
+My current iteration of the front end of the Cloud Resume Challenge - AWS. I am currently on the tail end of the project, setting up CI/CD this week and performing final integration.
 
 - [X] AWS S3
 - [X] DNS
