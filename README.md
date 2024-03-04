@@ -13,7 +13,7 @@ VS Code > GitHub > AWS > AWS Lambda > AWS DynamoDB > AWS S3 > AWS Route53
 - [X] AWS Lambda
 - [X] JavaScript
 - [X] Cypress end-to-end testing
-- [ ] CI/CD
+- [x] CI/CD
 - [ ] Terraform (IN PROG)
 - [X] GitHub
 - [ ] GitHub Actions
