@@ -1,0 +1,12 @@
+run-name: Deploy CRC AWS Site
+on:
+  push:
+    branches:
+    - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+    - uses: actions/checkout@v1
