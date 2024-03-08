@@ -18,7 +18,7 @@ jobs:
 
       - name: Replace files in S3 bucket / Static Site
         run: |
-          aws s3 sync <secrets.LOCAL_DIRECTORY_PATH> s3://<secrets.BUCKET_NAME> --delete --region <us-east-1> \
+          aws s3 sync ${{ secrets.LOCAL_DIRECTORY_PATH }} s3://${{ secrets.BUCKET_NAME }} --delete --region <us-east-1> \
             --exclude "*" \
             --include "index.html" \
             --include "error.html" \
