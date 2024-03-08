@@ -6,6 +6,12 @@ h1 {
   font-size: 5em;
   margin: 40px 40px 10px 40px;
 }
+
+h2 {
+  margin-top: 40px;
+}
+
+/* Mobile header styling */
 @media only screen and (max-width: 380px) {
   h1 {
     font-size: 4em;
@@ -15,23 +21,16 @@ h1 {
   .header {
     padding: 0px;
   }
+
+  .h2-header {
+    font-size: 1em !important;
+    margin-top: 0px;
+  }
 }
 
 .h2-header {
+  font-size: 1.2em;
   margin-top: 0px;
-}
-
-h2 {
-  margin-top: 40px;
-}
-
-.experience h3 {
-  font-size: 4em;
-}
-
-.experience h4 {
-  font-size: 1.5em;
-  margin: 0;
 }
 
 .header {
@@ -81,16 +80,22 @@ h2 {
   margin-bottom: 15px;
 }
 
+.experience h3 {
+  font-size: 4em;
+  margin: 10px 0;
+}
+
+.experience h4 {
+  font-size: 1.5em;
+  margin: 0;
+}
+
 ul {
   list-style-type: square;
 }
 
 li {
   line-height: 1.5em;
-}
-
-.experience h3 {
-  margin: 10px 0;
 }
 
 .education h3 {

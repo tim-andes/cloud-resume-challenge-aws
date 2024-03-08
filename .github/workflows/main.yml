@@ -1,0 +1,31 @@
+name: Replace S3 files
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  replace_files:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Install AWS CLI
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y awscli
+
+      - name: Replace files in S3 bucket / Static Site
+        run: |
+          aws s3 sync <secrets.LOCAL_DIRECTORY_PATH> s3://<secrets.BUCKET_NAME> --delete --region <us-east-1> \
+            --exclude "*" \
+            --include "index.html" \
+            --include "error.html" \
+            --include "style.css" \
+            --include "scripts.js"
+
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
