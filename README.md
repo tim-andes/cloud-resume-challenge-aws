@@ -16,6 +16,6 @@ VS Code > GitHub > AWS > AWS Lambda > AWS DynamoDB > AWS S3 > AWS Route53
 - [x] CI/CD
 - [ ] Terraform (IN PROG)
 - [X] GitHub
-- [ ] GitHub Actions
+- [X] GitHub Actions
 
 ## https://crc.tim-andes.com/
