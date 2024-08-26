@@ -38,7 +38,7 @@ h2 {
 
 .header {
   text-align: center;
-  background-color: #333;
+  background-color: #fa4ef0;
   color: #fff;
   padding: 20px;
 }
@@ -50,7 +50,7 @@ h2 {
   margin-bottom: 20px;
   display: flex;
   justify-content: space-evenly;
-  background-color: #eee;
+  border-bottom: solid 1px #eee;
 }
 
 /* Mobile Breakpoint for Contact List */
