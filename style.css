@@ -1,6 +1,3 @@
-/* HanaByte Colors - Temporary; hence the !important */
-
-
 body {
     font-family: Arial, sans-serif;
 }
@@ -10,8 +7,18 @@ h1 {
   margin: 40px 40px 10px 40px;
 }
 
+h2, h3, h4 {
+  color: #545454 !important;
+}
+
 h2 {
   margin-top: 40px;
+}
+
+#h2-header-id {
+  font-size: 1em !important;
+  margin-top: 0px;
+  color: #fff !important;
 }
 
 /* Mobile header styling */
@@ -23,11 +30,6 @@ h2 {
 
   .header {
     padding: 0px;
-  }
-
-  .h2-header {
-    font-size: 1em !important;
-    margin-top: 0px;
   }
 }
 
@@ -74,7 +76,7 @@ h2 {
 }
 
 .section h2 {
-  border-bottom: 2px solid #333;
+  border-bottom: 2px solid #eee;
   padding-bottom: 5px;
   margin-bottom: 10px;
 }
