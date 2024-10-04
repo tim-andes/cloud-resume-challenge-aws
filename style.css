@@ -1,24 +1,44 @@
 body {
     font-family: Arial, sans-serif;
+    background-color: #000;
 }
 
 h1 {
   font-size: 5em;
   margin: 40px 40px 10px 40px;
+  color: #ffef11;
 }
 
-h2, h3, h4 {
-  color: #545454 !important;
+.header {
+  background-image: "banner.jpg";
+  /* background-color: #000; */
+}
+
+#h2-header-id {
+  font-size: 1em !important;
+  margin-top: 0px;
+  color: #ffe564;
+}
+
+h2 {
+  color: #ffe564;  
+}
+
+h3, h4 {
+  color: #5ea8c3;
 }
 
 h2 {
   margin-top: 40px;
 }
 
-#h2-header-id {
-  font-size: 1em !important;
-  margin-top: 0px;
-  color: #fff !important;
+p {
+  color: #ffe564;
+}
+
+a,
+li {
+  color: #fa4ef0;
 }
 
 /* Mobile header styling */
@@ -40,8 +60,7 @@ h2 {
 
 .header {
   text-align: center;
-  background-color: #fa4ef0;
-  color: #fff;
+  color: #ffe564;
   padding: 20px;
 }
 
@@ -52,7 +71,7 @@ h2 {
   margin-bottom: 20px;
   display: flex;
   justify-content: space-evenly;
-  border-bottom: solid 1px #eee;
+  border-bottom: solid 1px #5ea8c3;
 }
 
 /* Mobile Breakpoint for Contact List */
@@ -113,7 +132,7 @@ li {
 .counter-container p {
   width: 40px;
   padding: 15px;
-  border: 1px dashed black;
+  border: 1px dashed #545454;
   margin: auto;
   text-align: center;
 }
