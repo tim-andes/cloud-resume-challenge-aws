@@ -28,4 +28,5 @@ jobs:
             --include "index.html" \
             --include "error.html" \
             --include "style.css" \
-            --include "scripts.js"
+            --include "scripts.js" \
+            -- include "assets"
