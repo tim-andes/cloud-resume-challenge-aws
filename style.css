@@ -10,8 +10,11 @@ h1 {
 }
 
 .header {
-  background-image: "banner.jpg";
+  /* background-image: "banner.jpg"; */
   /* background-color: #000; */
+  text-align: center;
+  color: #ffe564;
+  padding: 20px;
 }
 
 #h2-header-id {
@@ -20,25 +23,47 @@ h1 {
   color: #ffe564;
 }
 
+.h2-header {
+  font-size: 1.2em;
+  margin-top: 0px;
+}
+
 h2 {
-  color: #ffe564;  
+  margin-top: 40px;
+  color: #ffe564; 
 }
 
 h3, h4 {
   color: #5ea8c3;
 }
 
-h2 {
-  margin-top: 40px;
-}
+
 
 p {
   color: #ffe564;
 }
 
 a,
-li {
+li,
+.contact p {
   color: #fa4ef0;
+}
+
+.projects,
+.experience {
+  margin-bottom: 15px;
+}
+
+.projects h3,
+.experience h3 {
+  font-size: 2em;
+  margin: 10px 0;
+}
+
+.projects h4,
+.experience h4 {
+  font-size: 1.5em;
+  margin: 0;
 }
 
 /* Mobile header styling */
@@ -51,17 +76,21 @@ li {
   .header {
     padding: 0px;
   }
-}
 
-.h2-header {
-  font-size: 1.2em;
-  margin-top: 0px;
-}
+  h2 {
+    font-size: 1.25em;
+  }
 
-.header {
-  text-align: center;
-  color: #ffe564;
-  padding: 20px;
+  .projects h3,
+  .experience h3 {
+    font-size: 2.25em;
+    margin: 10px 0;
+  }
+
+  ul {
+    padding: 10px;
+    margin: 0px 5px;
+  }
 }
 
 .contact {
@@ -98,23 +127,6 @@ li {
   border-bottom: 2px solid #eee;
   padding-bottom: 5px;
   margin-bottom: 10px;
-}
-
-.projects,
-.experience {
-  margin-bottom: 15px;
-}
-
-.projects h3,
-.experience h3 {
-  font-size: 4em;
-  margin: 10px 0;
-}
-
-.projects h4,
-.experience h4 {
-  font-size: 1.5em;
-  margin: 0;
 }
 
 ul {
