@@ -29,4 +29,4 @@ jobs:
             --include "error.html" \
             --include "style.css" \
             --include "scripts.js" \
-            -- include "assets"
+            --include "assets"
