@@ -12,7 +12,7 @@ h1 {
 }
 
 .header {
-  background-image: url("assets/banner.jpg");
+  background-image: url("banner.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;

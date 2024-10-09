@@ -29,4 +29,6 @@ jobs:
             --include "error.html" \
             --include "style.css" \
             --include "scripts.js" \
-            --include "assets"
+            --include "aws-certified-solutions-architect-associate.png" \
+            --include "hashicorp-certified-terraform-associate-003.png" \
+            --include "banner.jpg"
