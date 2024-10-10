@@ -88,6 +88,13 @@ h4,
   margin: 0;
 }
 
+@media only screen and (min-width: 575px) {
+  .projects,
+  .experience {
+    padding-left: 40px;
+  }
+}
+
 /* Cert container smaller device */
 @media only screen and (max-width: 575px) {
   .cert-container {
