@@ -53,8 +53,8 @@ li {
 }
 
 a,
-.contact p,
-h4 {
+h4,
+.contact p {
   color: #cb1dcd;
 }
 
