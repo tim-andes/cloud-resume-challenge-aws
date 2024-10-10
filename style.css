@@ -58,7 +58,8 @@ h4 {
   color: #cb1dcd;
 }
 
-.cert-container {
+.cert-container,
+.cert {
   display: flex;
   justify-content: center;
 }
