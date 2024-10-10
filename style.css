@@ -88,6 +88,7 @@ h4,
   margin: 0;
 }
 
+/* Indent Projects and Experience sections - 575px+ */
 @media only screen and (min-width: 575px) {
   .projects,
   .experience {
