@@ -26,13 +26,13 @@ h1 {
   text-shadow: 1px 0px 4px #FFD5FF, 2px 0px 4px #FFD5FF, 3px 0px 4px #FFD5FF, 2px 0px 3px #D42CCA, 2px 3px 15px #D42CCA, 2px 0px 15px, 5px 0px 125px, 20px 0vw 200px #D42CCA,40px 0vw 200px #D42CCA;
 }
 
-.flicker-slow{
+.flicker-slow {
   animation: flicker 3s linear infinite;
 }
 
-.flicker-fast{
+/* .flicker-fast{
   animation: flicker 1s linear infinite;
-}
+} */
 
 @keyframes flicker {
 	0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 70%, 100% {
@@ -42,6 +42,8 @@ h1 {
 		opacity: 0.4;
 	}
 }
+
+/* End Neon Flicker */
 
 .banner {
   background-image: url("banner.jpg");
