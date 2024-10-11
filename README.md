@@ -14,8 +14,9 @@ VS Code > GitHub > AWS > AWS Lambda > AWS DynamoDB > AWS S3 > AWS Route53
 - [X] JavaScript
 - [X] Cypress end-to-end testing
 - [x] CI/CD
-- [ ] Terraform (IN PROG)
 - [X] GitHub
 - [X] GitHub Actions
+- [ ] Reformat with React/JS/TailwindCSS and package as app
+- [ ] Feature Add: pages/menu: Feature Cards with projects, etc
 
 ## https://crc.tim-andes.com/
