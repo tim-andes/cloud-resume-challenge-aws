@@ -83,6 +83,16 @@ h4,
   color: #e455ae;
 }
 
+.contact {
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #131419;
+}
+
 .cert-container,
 .cert {
   display: flex;
@@ -91,7 +101,7 @@ h4,
 
 .cert {
   border-radius: 5px;
-  background-color: #272932;
+  background-color: #131419;
   margin: 20px;
   padding: 15px 10px;
 }
@@ -161,16 +171,6 @@ h4,
     padding: 10px;
     margin: 0px 5px;
   }
-}
-
-.contact {
-  margin: 0 auto;
-  text-align: center;
-  padding: 10px;
-  margin-bottom: 20px;
-  display: flex;
-  justify-content: space-evenly;
-  border-bottom: solid 1px #37ebf3;
 }
 
 section {
