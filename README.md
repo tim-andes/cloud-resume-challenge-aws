@@ -16,6 +16,7 @@ VS Code > GitHub > AWS > AWS Lambda > AWS DynamoDB > AWS S3 > AWS Route53
 - [x] CI/CD
 - [X] GitHub
 - [X] GitHub Actions
+- [X] Add keyword skills sections
 - [ ] Reformat with React/JS/TailwindCSS and package as app
 - [ ] Feature Add: pages/menu: Feature Cards with projects, etc
 

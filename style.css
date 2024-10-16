@@ -106,11 +106,13 @@ h4,
   padding: 15px 10px;
 }
 
+.skills,
 .projects,
 .experience {
   margin-bottom: 15px;
 }
 
+.skills h3,
 .projects h3,
 .experience h3 {
   font-size: 2em;
@@ -125,6 +127,7 @@ h4,
 
 /* Indent Projects and Experience sections - 575px+ */
 @media only screen and (min-width: 575px) {
+  .skills,
   .projects,
   .experience {
     padding-left: 40px;
